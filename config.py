@@ -26,6 +26,9 @@ SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 if not SENDER_EMAIL:
     raise ValueError("❌ SENDER_EMAIL bulunamadı! .env dosyasında SENDER_EMAIL değerini ekleyin.")
 
+
++6
+
 MAX_RESULTS = 20  # Kaç mesaj kontrol edilsin (güvenlik için fazla alıyoruz)
 
 # ========================
