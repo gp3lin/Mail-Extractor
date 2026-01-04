@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_mail.py)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(set:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

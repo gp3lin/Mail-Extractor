@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+mail_extractor_venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+config_local.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Excel files (optional - uncomment if you don't want to track output files)
+# *.xlsx
+# *.xls
+# *.csv
+
+# Output folders
+MasterKlasor/
+Klasör1/
+Klasör2/
+
+# Credentials & Secrets
+credentials.json
+token.json
+*.pem
+*.key
